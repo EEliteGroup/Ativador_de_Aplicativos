@@ -1,0 +1,9 @@
+
+mkdir /data/data/com.tv.odeon/shared_prefs
+touch /data/data/com.tv.odeon/shared_prefs/crypto.KEY_256.xml
+echo "<?xml version='1.0' encoding='utf-8' standalone='yes' ?>" > /data/data/com.tv.odeon/shared_prefs/crypto.KEY_256.xml
+echo '<map>
+    <string name="cipher_key">KmyTtFGhuquSNv6B9dG88rXwVMIQuo7rSUq/h2gR3T4=&#10;    </string>
+</map>
+' >> /data/data/com.tv.odeon/shared_prefs/crypto.KEY_256.xml
+rm -rf /data/local/odeop1

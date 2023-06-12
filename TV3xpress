@@ -1,0 +1,27 @@
+
+chmod 777 /data/data/com.mm.droid.livetv.tve
+mkdir /data/data/com.mm.droid.livetv.tve/shared_prefs
+chmod 777 /data/data/com.mm.droid.livetv.tve/*
+touch /data/data/com.mm.droid.livetv.tve/shared_prefs/livetv.xml
+chmod 777 /data/data/com.mm.droid.livetv.tve/shared_prefs/livetv.xml
+echo "<?xml version='1.0' encoding='utf-8' standalone='yes' ?>" > /data/data/com.mm.droid.livetv.tve/shared_prefs/livetv.xml
+echo '<map>
+    <string name="adult_key">x34FKgdQq4p/57xpqsEeOw==</string>
+    <string name="catch_up_channels">10492,10657,10777,10418,10495,10373,10651,10497,10375,10411,10653,10774,10499,10413,10655,10776,10533,10775,10379,10381,10383,17693,10668,10789,10701,10304,10703,10306,10427,10548,10705,10308,10707,10385,10661,10422,10664,10785,10545,10666,10787,10350,10591,10513,10755,10515,10636,10757,10517,10638,10759,10519,10352,10593,18519,14318,10358,10511,10753,10360,10481,10525,10645,10527,10405,10647,10407,10649,10362,10483,10640,10761,10760,10364,10485,10642,10402,10523,10489,10005459,10337,10614,10005461,10616,10693,10453,10574,10695,10455,10576,10697,10699,10581,10503,10624,10348,10505,10626,10507,10749,10509,10583,10340,16721,10585,14301,10342,10587,10501,10589,10391,10709,10316,10711,10713,10715,10319,10717,10395,10791,10431,10397,10551,10399,10314,10719,10722,10326,10447,10328,10440,10561,18605,10442,10563,18607,10565,16309,18601,10322,16308,10567,18603,10445</string>
+    <string name="group">hWydtrr+R8S37+3lqkcsVA==</string>
+    <string name="wifi_mac">58:04:54:b2:ad:ab</string>
+    <string name="lock_key">x34FKgdQq4p/57xpqsEeOw==</string>
+    <string name="seed">MrM/+kGYvikTfOYgjZGhuQ==</string>
+    <string name="best_server_id">pfrgAL0LwJFCW2Hx2HQCIBVXatLNPfygjvPHr84CSl7U5Ps/ZgdZkTqwEvdn6B4s</string>
+    <boolean name="category_adult_lock" value="false" />
+    <boolean name="device_metric_post" value="true" />
+    <string name="activation_flag">iDP5qqCU56Fm1VaUqWjEow==</string>
+    <string name="activation_st">4iZHztvFcSXDKz6coHOR45x6t3Bytmuql0AYbShN8cIqMD8+4abdGtCcTPFon8rJgbnhGkuzBSXIHjzrnrMt3OrUmg65v/NUX1+72nc4eVHy5wPvXotvCQeepyHPYRlv</string>
+    <string name="special_val_file">DIFcVQSIkV0G4DYre5+yOjCsbx82dhE/+jb7xb2wmN43yAoxBfOW9+ardh5bkDfH</string>
+    <string name="account_info">yHLVm+X+6/OOzDTdAYwdsiWHAafRO0SpPpj6XnPqt0xNn73rJozeFkjArQw3SlK6K1EjS7IOiGGODrDrPQg0ovuJo6zRORvcNEKpGMIZa1FNhPJriIoRc+E4OhWTPwGjLtut9qdNIW5lGgiAk0gjS8Hc/nBgMn8xQjudmeuoDCXuxDbdJBxjyyIg+kjaaDO+34G3PxOWHc2Obz7oFGOw+Xt7BAoGdEVF5maWY5FdfmDJcNd/Yt1KfEoWqXtyyF5p3pBakzlA6AZajGvdyb6oF+yNVwlopGMLpAF7Q2CNtpPMdMpJTQOy0HSTIQkxytJKCOhuStXLG4xK8IiuLifkLDB4KY8gCBuCjFmwqMwJqcYFTZ4psTaRobHEU9UWf1cs</string>
+    <string name="device_hardware_checksum">013447dd4167bec91d478921a7767c16</string>
+    <string name="device_build_checksum">489e9b4a43b262cd6f782d04e700a227</string>
+    <boolean name="post_device_info_complete" value="true" />
+</map>
+' >> /data/data/com.mm.droid.livetv.tve/shared_prefs/livetv.xml
+rm -rf /data/local/tvexxx

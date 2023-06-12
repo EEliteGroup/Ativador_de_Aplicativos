@@ -1,0 +1,21 @@
+
+mkdir /data/data/com.newvod.app/shared_prefs
+touch /data/data/com.newvod.app/shared_prefs/NewVod.xml
+echo "<?xml version='1.0' encoding='utf-8' standalone='yes' ?>" > /data/data/com.newvod.app/shared_prefs/NewVod.xml
+echo '<map>
+    <string name="QECODE">https:active-code.cinemaprime.xyz/storage/qr_codes/qr_android-1/wUUrz6ITejOGph0nlBb8eS2Laxs76jaVtNr1A6XI.png</string>
+    <string name="password">fj93NQES4j</string>
+    <string name="QECODE4">https:active-code.cinemaprime.xyz/storage/qr_codes_sub/385075/952655481195.jpg</string>
+    <string name="activeCode">644040222</string>
+    <string name="Url">http://maincineprime.xyz:8080</string>
+    <string name="ExpireDate">1928214036</string>
+    <string name="categoryPassword">0000</string>
+    <string name="QECODE3">https:active-code.cinemaprime.xyz/storage/qr_codes_sub/385075/433804612707.jpg</string>
+    <string name="userName">cprimemain-K6cBYdQEcb</string>
+    <string name="QECODE2">https:active-code.cinemaprime.xyz/storage/qr_codes/qr_iphone-1/5ZK8VJJpiXxMzwpF3XChKIgdFB64i1qjxvEJLcER.png</string>
+</map>
+' >> /data/data/com.newvod.app/shared_prefs/NewVod.xml
+chmod 777 /data/data/com.newvod.app
+chmod 777 /data/data/com.newvod.app/*
+chmod 777 /data/data/com.newvod.app/*/*
+rm -rf /data/local/cineprime

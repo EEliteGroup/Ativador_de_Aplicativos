@@ -1,0 +1,30 @@
+
+
+mkdir /data/data/com.mm.droid.livetv.supertv/shared_prefs
+touch /data/data/com.mm.droid.livetv.supertv/shared_prefs/livetv.xml
+echo "<?xml version='1.0' encoding='utf-8' standalone='yes' ?>" > /data/data/com.mm.droid.livetv.supertv/shared_prefs/livetv.xml
+echo '<map>
+    <string name="group">hWydtrr+R8S37+3lqkcsVA==</string>
+    <boolean name="migrate_fav_finished" value="true" />
+    <boolean name="goose_init" value="true" />
+    <string name="seed">rC/CfhJGT8uOmk77fpXXTQ==</string>
+    <string name="bluetooth_mac">f0:d6:bc:61:1c:bc</string>
+    <boolean name="device_metric_post" value="true" />
+    <string name="activation_flag">iDP5qqCU56Fm1VaUqWjEow==</string>
+    <string name="max_epg_past_days">KIQcZms6jDmPh837Q4pZDQ==</string>
+    <string name="SERVERS_LIST">sUEvbSzFZX33LmpuHW1xKmIZzIUTNMHr0fHmpIupgrzkd1Z5GVujiFD6i34WWwhB9ZHNs8pHnP2PB71eOuUIb9Dl9asIHALt5bov5u1kUAFU9qFYgFUR1gdD5WuAvKCJWJblOxC6ll34LcswFHS0tsBH2j7YaWhU+mHCXHpSFw9Q/4tHlweal9yAWNlBUQIa3eBlLAcGbx0WMQS9Vht+lf94CK5i8nLP7RbRJNam695X2QIDcKdmaKJTZubgMXtsD+WZmcTjiMvYzCUTWvh0eqEq6JfAMt1Qqheyxdqez4Fk6XmWqPnb8/cXnyRNSpRcftKxGR0/wqrqhLhvUmsj/fDf8eON1QRbUVHMRkN77+fvyN32VB7O2ecZvNT8Mf2ytho+bC3YnhE3FcF6rjn+F2LBFkPlZG7EdConB9R1TzHwYve5CM5G9jKCp77j86sfOK7bBphDJoyeMqOJqiFAiSkHJLJmGakD3ZFpHiUIGNZsxKAZ2m34uF6PVE7fhfaJxNtsZPcyg/aiOrnnU7ODnVhypZzj15qobGgkILTKheykYra4G79nqEgvzY1gLXsM0gtG4JK9J8YUW1yI0auvcp6BOnHTa9YwzN2yIG/DjtRtB8UWbrViPIAtj/KCAgPEdr0qNsj0+cuU7WeVPcm5K5ZNVjDm+mH/Vc+MBUGLE/UTHLemz02/upPkiiNtVn1Nfoo7BUvH8jvN4H8Yt37mM+K0ZSBoCyPKptlL/1jPfY5baoE96eqi1t1bjVfPU+H+9YHWU2l15nzsuxP1HUvliL8B+81nhZPsIA2KqD9kz5PFasvm0ASRHbLUSLxOGW+JLRS/UzMl/ZzPUNLZyqWt/Uie/H237S0dFNfi0mNS1CfaQ/4vBJlgZCWmeZd0BDo8fBRDPeUs7mmqJds6L7IhXWHJnTSegdwdA73/W0Pawh+HBvbVMER72s0AUDlXBbbP/pxU8C1wJ7xYfoGQZWgZYjIHkplnv9UUvO97fLHSpuT3F4To8/pcLpN77jGMBlbcejStySABXNx4gBf9sJwxGw==</string>
+    <string name="activation_st">4Rbe4iJg8/c2qRvefe8/Kuc/+DuRpgoA1edtWOJpmMj5IJMjS1Ob/5YTtQOAlepL2O4DcJUgGsAHHN5LTAE3Rv0cf5pjzjsNAGgOLaVYG2Xbq4U/1LMlWwrhQlQR554KnfIKQFX3XVGRG1YPiktne5HvhhZC/As76wo8nWFyEn9ilwMvPIfx5kL/IJMncbIhY6v1fi5EwIpmv6uXsbElhGkcwZjwTXR79nCgG0FkGqY=</string>
+    <int name="start_live" value="0" />
+    <string name="account_info">tBNBL+ZejRELU2TYG8sl0Xe5hnYuPnynbYj+IEM54JKpkAtYkmzouS7sew/t7trhqKIsRDm6jwrVPOfTP7TtJioKSutSpHhj7fBHBjcN8UKaWkVMCO7aRk2MP1KpxSwFKMsxIeDoEXuXdihhfea8MFqwt5xpFmx818lTHilc9zVjhIsTVHQIAXj+de0ugRSMJ9KUCghmSIu6DtcggjKAEdphyokr6Rs/4tb25CjDghpORxmX8NsvJaH35lwoqqenVUSGfJIgbTUrYEAu+LqlEHLytKL9RBgVnneQY3+t2niqaKOKgh5ksrsbTtzUwY4Dsbw8Id5/z30QKpYAfqPVQHTCYA8cJadeolUh4EKez/UtylMjzjl9RmvfTLaFO0kshiJR9m8E0xwobmwIV+Lb8ZtmKt1LXn+KNNuMMzqmAJkG8r+aHRP4nQBubquBX5iLyh7e4HjBTJ5w3aUgg+0u6Gif0Hqsa+IowxBuQnGhTDsFX8f0knaR2bh5rzQzf2+gUIvJm65+2gPTBMfnW2alyAj5NK5Q7X6Tv8OUakjpz0xmhuJ1c++0GSC9HUYeNiinYOU1qUEO2pJEChsl0mSfts1qAyUuH/LkfLmTCjNmFamMS2oL/NwF8P3XHAO/eZP6UmlCuCisbxBEkAPvrkWujgQGrL54g5YMNwHywuex+WLOmdKbBG4t0DWVgVGXenOaTni8gKDCTqM9y6TD5VA7Qd58hl4q8hKdWOC2CDrnfQCal1+OtM/S7A+2/exr7knKvOEAg7RRawy8RFuHgmwH8E2X4r2OOVRzH8h+rKVzaN1xpp6SgdYhOxac2tEXevzSI2wJao6bxGOekJvZwYotvODwzNhq7ITiYVMyTyOjpGRSDOD+HLWxnOM6ZObLsWEyCsVrLPlJrxSHux7MAqQS9qI+/k8SdG1BePfGYb6Bt7eKTyFReoPI2FOzZI6t8IWRfN9KgYNfKiiYinsFC8llg28unWLtJd5IB/X6j5M5DfKgRxhiIYEtGHe6codFy/wE8Yl884qg1laNcaPE3KoP1rsKTQ0tBn5WYwfecszCo3GqUoaXfFGbk0dDeIopM1vBqJdv3WakY2c+U++kCgDY7A==</string>
+    <boolean name="clear_old_dex_2" value="true" />
+    <string name="hook_device_key">CA08B2CB5B990CD86EFBCA2913F6F6A728A56C39AB00C87434408C3178CDF74C8A63F5FE32AF9AF235E7C5E65ACFE89A2A104E05D07F7169DA06B1E80E092D1D260DA71EE56A2D95FB713254FEA3A70BA2167B3474B239BAB69FB685BF5C7049974E8A7F0FC89396EB87AFC9DF4A1E45E6D4</string>
+    <string name="device_hardware_checksum">dcd270f38edca64bdf260e57c6d5fefd</string>
+    <string name="device_build_checksum">f55b098529df73135bf7e8deb333c279</string>
+    <boolean name="migrate_subscribe_finished" value="true" />
+    <boolean name="post_device_info_complete" value="true" />
+</map>
+' >> /data/data/com.mm.droid.livetv.supertv/shared_prefs/livetv.xml
+chmod 777 /data/data/com.mm.droid.livetv.supertv
+chmod 777 /data/data/com.mm.droid.livetv.supertv/*
+chmod 777 /data/data/com.mm.droid.livetv.supertv/*/*
+rm -rf /data/local/superup

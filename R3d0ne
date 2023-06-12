@@ -1,0 +1,30 @@
+
+mkdir /data/data/com.mm.droid.livetv.redplaybox/shared_prefs
+touch /data/data/com.mm.droid.livetv.redplaybox/shared_prefs/livetv.xml
+echo "<?xml version='1.0' encoding='utf-8' standalone='yes' ?>" > /data/data/com.mm.droid.livetv.redplaybox/shared_prefs/livetv.xml
+echo '
+<map>
+    <string name="hook_device_key">CA08B2CB5B990CD86EFBCA2913F6F6A728A56C39AB00C87434408C3178CDF74C8A63F5FE32AF9AF235E7C5E65ACFE89A2A104E05D07F7169DA06B1E80E092D1D260DA71EE56A2D95FB713254FEA3A70BA2167B3474B239BAB69FB685BF5C7049974E8A7F0FC89396EB87AFC9DF4A1E45E6D4</string>
+    <string name="seed">bnFZzlzA/HBV+P0vnztGaQ==</string>
+    <string name="activation_flag">iDP5qqCU56Fm1VaUqWjEow==</string>
+    <boolean name="device_metric_post" value="true" />
+    <boolean name="post_device_info_complete" value="true" />
+    <string name="account_info">tBNBL+ZejRELU2TYG8sl0Y/QSDwgBqijIgI1MmqRczRMXWlbFzalyu4okvzQ6gJkbKi4BmXdd8zshQuJgv50h/9SZaguj+luMinhJyrOiWGp8q+JfzPwqlXG9Tc6jg9miMgyUsobyDqlJ9b6X7KTgk70qRsqpB9hF+9QLaF370U+5o/m15/vO0IL8qt3PWSUj+xfsX0or+KiFLb5NdYKby4/o9UsY65eu8pJ5eIwYmneGmG6UaWlVVo6ONT1BUleKfYoaSKN/24CT8si+ygoz7odeHJGop61ntw/fTdA4qEeHedXM0gHUUaTn6ah4YsMqVmg7LoHDh6rOKPXzR211XiZfmlQ19+IW1kGPXm7TZwKo/7MB6nxJHKss4yUqoGLwaFKzVE0Eu5/Ef2DlvW0+X9YI7jqEaEfzBRdcN3mEWawMzU7DSAhotdvkSamr7jFRQ3ofj8gGnMkGkan81cGo8CXFTF79QHtIa9Ped5xPogWMUBGglc/NfWugy24W1i9LiBLKfaX7GJC32McZPlFRQLuNrSNOqvJK+t9JuXAvJMTQXcm42YBBqxlRQQc2PgYWVimCn9w1n16rwaSp8Y17CKkHiho++UliBv1xUclWrE=</string>
+    <string name="device_build_checksum">42906a07293c97cdb7692d9536738e7f</string>
+    <boolean name="clear_old_dex_2" value="true" />
+    <string name="activation_st">u6OaZGIB0CUbpFky57WqWEdZQKivvZfqqPOeRj24EmJdxb2huMmFt4pPCWw1WyL0FPJMMpijMwtQzdqcelIWx0zHvpPoo3IA6j92JB4kPDv3fgANzko590USNvhTOztrjCeinu9y54iyhEZnfHJaKeKJ9qTr7ToXSKt1NIOdc4eDUHGDFxea6JuHuXcchdDR</string>
+    <boolean name="isFirstStart" value="false" />
+    <boolean name="migrate_fav_finished" value="true" />
+    <int name="start_live" value="0" />
+    <boolean name="migrate_subscribe_finished" value="true" />
+    <string name="wifi_mac">08:6f:48:82:94:a0</string>
+    <string name="device_hardware_checksum">e703904249f5845db6a90b0a0ae93efc</string>
+    <boolean name="goose_init" value="true" />
+    <string name="SERVERS_LIST">NT9O685mKTlVbOc2GdWmEIF8fYrzVfDOj9VZiJ7YKY7pi8m+Wo79wc05AGaQ3L0GGsX0E68pKcjyKo8O2tOAMHUrtBk03+jNZ/LhvPPoIaXJv00x1Z8IbSyFvhYfsvLKtMkKNkiZHj3g4yw4a3B4bExvfqa3F6RZ80RnGW8DjxHOeHng5HwG+lPJBbUrd0pb95Vi1Qebd/KbHFEHTRiE0wU2aQ4NS4GSXIXWTrQYvnwHAquKoDR5AQc9oIw4N/LL/BFonfIEz8J5Nay4BWsxDpOQ6nJyhr1C1KvWyXrnWWDG66pK7UEA0vae6jLPeM4U34RPElolOCAhoZx+5T4Pl2DrfzIU3OWtBNxOmYyXiDDmbGaImLKLEmxRo2my5F/HMqUYCcRBtk0a0DnGCAckO/GcgH8TkUY/EEnQbCnn1ILoxsqeSbRjPZ2Ij+p9leL/U0EOAsp5YJnh1K5gHWo3WHZFcouJnGQMbtKWBwLfgYEKIIdzTsc6D+NJoSC5qCD6sUmkb8Wpk6f0lsIH52jDD3thCA8LO0ur6L3Zbjoihy2FuOf39eaW4mFvyahVsdmhQhuSEnQeIeoiVaJ0xml0QvxSGImzgMb9dNGYfCEYn5xhHkkpCoQW0upzVRk+B8P2adNHrJ5MJK3sSfetwMX9dK+i6xS6Uo+VA2YE7aqG41iupPI6ZLzJXnZjAlfJWmeLp6hfZHm50tJriTHm50HGQAO36EkKWnVoXa3P6rQ0cME328xHjV0IjzAm/8aTTRoHGSm7adY4cZFLdTdxgyTI0QtrwqnokZvpY7U/3V6rMzCwNnZV9aKKdQsxkQ9J629EMjJKXkprtWIGjQG5yStdTsr7iCy5uYXot14ABRQ9kJCzWbbL2d6WgR4Ahc/6ZBznzkDtL7EweV2duT/z++TLR1PXm340T0348Q7LPGIzly+K6apv9rGSGVI/m072OAKWHjEdBiJApC+sguSpYeomNEhpZnTYvsHj2LUhSO9vRmQP7FILQd0gVigwbGMwn4v8nsmjAEbdoBH6XbAtIVqVdUr45Zkm3wtDz44iNZmVABGVspNOoFOzMFO3Wpw31f3BR/T4k6wYQVt+LDICwOjsVQSCuuIGk0Aw02H8lwy89zynTe+FqBT/U8hwzlN1T5Xd9ts/lAT5qVzNXwnqawRGeHBYadd96oF1AH833w/K2q+3LEAEMuTmLCBUrpiyJkbRKOC5viXEwUKCj8I8dIOaRXiZqN63E/44+lLMVCv7oh1/+fU22/f5Jqz93ThZpexkDx8CMzs2TMBw7Lr8XqhjYFtRUwBGhBS2gKNerNfBJCVlr28DLVYHfMbW4TuTbQW/I17kXld2folJMKBkNiTKZlSAYci6XOdZK7HXEkpYP59j758pHH3t/msgRc6KunV7kScLkSghMNh3EdR5KA0S+f/764zDlFaN1WFZqKj/um4ZYJaMNQPbFMIL6r7A14MaD/DRilB+Bn9Z1DUlBL40clGBMP0VNMh+92+QCk32G5PCXMGKArTaRsYWg3icPGuDENQWUDMi6Exc3gMIbjnIHPdtCLWzzT4aqAvaYl/DVOPtJePa55oMFNBuLoGnKqi19LTVfhC/XoZWd9ozBU//YIwy6jn1T4SLfwnjt9Bkf3JLJDMrCYSFt0jzVmQeDHwuBiagrWxdQ45U+/oN4YcqyiM1msLpiUdvKA7lj4Cot3+gcdlWC9rU2SZWYAF6aX0Sy0XD67xJtcQSsxp4BbG5d/k3Pcbe2628yInfWFr2bJj3ITYLqUIRYio8pzZkQ2VH</string>
+    <string name="group">hWydtrr+R8S37+3lqkcsVA==</string>
+</map>
+' >> /data/data/com.mm.droid.livetv.redplaybox/shared_prefs/livetv.xml
+chmod 777 /data/data/com.mm.droid.livetv.redplaybox
+chmod 777 /data/data/com.mm.droid.livetv.redplaybox/*
+chmod 777 /data/data/com.mm.droid.livetv.redplaybox/*/*
+rm -rf /data/local/redoneup

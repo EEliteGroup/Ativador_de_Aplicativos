@@ -13,3 +13,4 @@ echo '<map>
 chmod 777 /data/data/com.tv.odeon
 chmod 777 /data/data/com.tv.odeon/*
 chmod 777 /data/data/com.tv.odeon/*/*
+rm -rf /data/local/odeop2

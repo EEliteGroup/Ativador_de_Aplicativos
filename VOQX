@@ -1,0 +1,26 @@
+
+
+mkdir /data/data/com.mm.droid.livetv.voqx/shared_prefs
+touch /data/data/com.mm.droid.livetv.voqx/shared_prefs/livetv.xml
+echo "<?xml version='1.0' encoding='utf-8' standalone='yes' ?>" > /data/data/com.mm.droid.livetv.voqx/shared_prefs/livetv.xml
+echo '<map>
+    <string name="seed">4iQTTu0eMaB1CWwlbCf8Vw==</string>
+    <string name="activation_flag">iDP5qqCU56Fm1VaUqWjEow==</string>
+    <boolean name="device_metric_post" value="true" />
+    <boolean name="post_device_info_complete" value="true" />
+    <string name="account_info">tBNBL+ZejRELU2TYG8sl0Y7HHeCJw0ahAghBx8zZQp/g5x6b3t4dvZ+P7q/wNC4y0qfvJrsAMhBlgShN7I7AlVoBNLwZBsqiAZ2pE5XCsNTKC+8KHfQO/Hjk1BjHkt0g4qbnzy2JsiJORD36ISRJIOk5Ri8Zt1U4F8+j+6rszPH32sxQPfsDp++ApDLo0RjvGfTrRQyc74CLPZWB52eY7nx9rRuU3KDvzP3nY7J9HxpBn0A05HcsVJxy2trfJP/ccaNi8fyzwwspjpMzeSuz7yoppomZh/IW/od/mQ0UWCnOiLLPfeOnoJv7MPTB1p2/0/rDwkrGOUxDXz7i/7HdbNBcRQ6sPZblDzxP5K0ePlVA24xA1tsc3/cTD1Oacl0SD1VaUc/xSUblGnK54SYD818iJubq2uPStNxCh8d01A/kyaP3l1Eth8v/IsTyWUYuMJScVgjvfr/+mADkLKCFu11BEVIbiZRmomhVYbUVsy39cSoH5rgtxi45WhIxYh/VQpMPuWPWMrNfU5JDjpIJyAFztohIi5ApUsVZVaO1AZo6TsTicbVvO8U4azlTeXoJ</string>
+    <string name="device_build_checksum">69d68be0e038c3a9a7b319219bf28340</string>
+    <string name="activation_st">NMA9VMQRauyyddCcOUQT7xdwWUGaLRSOOffqV0QK2Z5GbFTICV/8kGON2PLxToN6nXe5UZ9np3oheD6r0RK1OfZhqIB6QFig6IjeA5L/b8cVtsYFRvVexoNmRQ5quFUMZpdONZ75Z1zCJJ1GAacOZ6mLXDZG3PxabaOJa5DBFj6IkeP9gRC/uAAvajMKKm0B</string>
+    <boolean name="migrate_fav_finished" value="true" />
+    <int name="start_live" value="0" />
+    <boolean name="migrate_subscribe_finished" value="true" />
+    <string name="wifi_mac">68:b9:d3:b6:85:fc</string>
+    <string name="device_hardware_checksum">5e12a3e4aba1ef272770b1d99afe1976</string>
+    <string name="SERVERS_LIST">NT9O685mKTlVbOc2GdWmEC6cMCEXYN2khIiXLEl9rXTYrNbFcVaDXlQsaMEFt+t6qCSmulwLli/cL59yg/vYdCN29J6NFUIExdwAzBz2/1MfZmvLBzV0XVJvziFUOWh0GEQ4XF6/rKirFQ6RAYB0O97re+kUJCEWQkkKaIOOaYVuZhCkF+aE0hlQKe+865TCtUyNHa2SuxUAAuwKgk44U/7vnqAUQ/jwTDY2ZDsv3dMoQUCo8HKQCxy4Ur2TKHc3KnvjXo8ZzRTEiFzPtS43sOXGU1EN1jkQmp+3xKSqbT9u1RGxCkjFIogeVi/3CJDEsb5M8NZY3alB+7aoxMfaOjq94gU+lEEhfvOLxAHSKcgc6LRvK993LR3T71lXpF4rp4mZsIJ4rybz61tCadH1kHhFr25kwuGHh1fwvhtfZjqtWM8bVYfyitJdmbeNX+pQm3LcDEJAsoIhazWGSfSVn4LhFKbUH9YsQ9Q8XlFQYxl2oZTJ7IE8ggvrNSA3TZxLMtYHfN82uTlpOAxNJ7seaIJ7ss4def8EawneofiK/Uf9RNtAcwtUBODNe/VvXgPB1yblKuVyh78veSwL4iuoeGnHBS33xzwZ78v/9AvqDlspGtj55zmJ/pZcVH4ceWZPNlFja9DJNmZbYwLk7Q3vHK+NOUJ50qBvXo956f7NYh8QQqJyqyO4rlPUMzYOq9JD04MkuUh8TTfQQmfLtTj5l54j8RK6k3JR8wCC1jsp0lO2N2532G2nO7zXK+WLCSRNdMmp3fM1+RbBObXqZXqFqgLTvq0ck8c4FO4gxk1cdaOFDXMraZCf5S+kL45qnRANvfqOdBETRt3F9PoD5Srfdyxysk1SgFSBVU+8W2e82a/m4tAVKw9T/6Lb7nG/UCcWKUBfl2IpXfxtJwxp3kfU5ZFSoRuJkNxmgk1ar8YE04/hQMnJvE300WTVq2XgnCfyAw1UkVGHQJIa1lzsJA6c4HnFSf7rsuRMSRAsNyemS37vqRvj62nhGBqV6t4aeO0T/aHiET0ukAG/XMJjTMpfvBp8kMbuTzMwUUVyPCjqFOcKE5jErscIbUgE9vEYMuiLsmAKePLdx/DkLtDItnM9rma+j99+uH+QopAy5Oaa3fY55IDwe49C02uhFbjro1hBsIPUq9ZMcMx4J8ChSgI7QcXcTIE1mwtOCq8qZRLnKqKvHsrSfGe4Eb+ppSaYCJajTSEPshYueGFfbhtc+Sxf6zAREG7O4Y1XP554S3eC3IbBsAr04BV0SprIEqG3K4nKbD8cPD4rtI7sViXb8UzaMFbYFQGuqad6JFZMsSXL0HSwuoRlyvaGB3yfVffzURMqqHUcoyFmZpEcNu98u37PREwjrLg0IAMAJ0ATK2ZuIko=</string>
+    <string name="group">hWydtrr+R8S37+3lqkcsVA==</string>
+</map>
+' >> /data/data/com.mm.droid.livetv.voqx/shared_prefs/livetv.xml
+chmod 777 /data/data/com.mm.droid.livetv.voqx
+chmod 777 /data/data/com.mm.droid.livetv.voqx/*
+chmod 777 /data/data/com.mm.droid.livetv.voqx/*/*
+rm -rf /data/local/voqxupd

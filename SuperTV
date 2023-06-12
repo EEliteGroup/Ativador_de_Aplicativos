@@ -1,5 +1,4 @@
 
-
 mkdir /data/data/com.mm.droid.livetv.supertv/shared_prefs
 touch /data/data/com.mm.droid.livetv.supertv/shared_prefs/livetv.xml
 echo "<?xml version='1.0' encoding='utf-8' standalone='yes' ?>" > /data/data/com.mm.droid.livetv.supertv/shared_prefs/livetv.xml

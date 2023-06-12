@@ -1,0 +1,33 @@
+
+chmod 777 /data/data/com.mm.droid.livetv.duoprime
+mkdir /data/data/com.mm.droid.livetv.duoprime/shared_prefs
+chmod 777 /data/data/com.mm.droid.livetv.duoprime/*
+touch /data/data/com.mm.droid.livetv.duoprime/shared_prefs/livetv.xml
+chmod 777 /data/data/com.mm.droid.livetv.duoprime/shared_prefs/livetv.xml
+echo "<?xml version='1.0' encoding='utf-8' standalone='yes' ?>" > /data/data/com.mm.droid.livetv.duoprime/shared_prefs/livetv.xml
+echo '<map>
+    <long name="all_data_checksum" value="1660572401326" />
+    <string name="hook_device_key">CA08B2CB5B990CD86EFBCA2913F6F6A728A56C39AB00C87434408C3178CDF74C8A63F5FE32AF9AF235E7C5E65ACFE89A2A104E05D07F7169DA06B1E80E092D1D260DA71EE56A2D95FB713254FEA3A70BA2167B3474B239BAB69FB685BF5C7049974E8A7F0FC89396EB87AFC9DF4A1E45E6D4</string>
+    <string name="seed">MDeS0JDnsUIO1R6mXpRmnQ==</string>
+    <string name="activation_flag">iDP5qqCU56Fm1VaUqWjEow==</string>
+    <boolean name="device_metric_post" value="true" />
+    <boolean name="post_device_info_complete" value="true" />
+    <string name="account_info">tBNBL+ZejRELU2TYG8sl0YWdr0/uZx7YY1mVUq13DQiLrQkHYRF7zpIQRPEAexl8WkMppsRiMdF8tcZgKvmPYJx3sO3TlCXAwNt15rYUh6+3Zvgc5Z8gFZTJWj3Tx/h0gX0JpcDg165dfTgQq7vIDc0nRYAM6K3291sm44hCVh0lSRF2msL5P0DSmtJQZ1qtlkv4PP1uXytg6b5ktFLZ5ZOe2XOMq8ynnCiuA8du2g1zZ5TIC0vULgL+mC05xSOI79/FD+5h+z9UpI0c/5/bH/JBrcEfz1TlBj1h5EE98g4o3DHQ/A4AEArNRXIxo/9JmG/4/nt73QQaqQ5omjMDXHPBNJgOukfUcZWSSaZ8ojatfYstMveHwPm/SN0NFiotZTVt0wMmqw0InXkIcOakUTj5jfAgU7FjrrD17oNWRaDbXl7N8dB4tELM4zDvL2PSGVYdhg7YzNHD9n1qGeKMik/yi56vyqxZDT5yTfRSuKimenXySh7y1PFCRdb9fHX63H3YrOo5IxnygKrqHMJ+WG0f5s+h8Ibs6Sgvp5gCVLqmW5e5e5Iv+KRi+cw8ILAnBi8m+44GpA8nHL2v2NAtyZ3BDiOQ44r7FqOPlmyM7kQ=</string>
+    <string name="device_build_checksum">eb4661b207e3b25a46eb3ccc0b5f3035</string>
+    <boolean name="clear_old_dex_2" value="true" />
+    <string name="adult_key">x34FKgdQq4p/57xpqsEeOw==</string>
+    <string name="activation_st">a2RKWJIL+0QIMB/jXMKbjS9o6tHIyPXU4p5W4Nev29/CffN6Ji663gc619LAliMVMswElrv4umHlGKY/xqr8hPgQS7WT+oil+S4OxrTOSc0hiRHWw8hE+RaNJtnB2IjEKMlQqsplKn/5d03YbqvFCgPkPATNeJbPR9XfZjryNKpawmKm71+K+VqOZQmvvDZT</string>
+    <boolean name="isFirstStart" value="false" />
+    <boolean name="migrate_fav_finished" value="true" />
+    <int name="start_live" value="0" />
+    <boolean name="migrate_subscribe_finished" value="true" />
+    <string name="wifi_mac">48:5a:3f:08:ca:2a</string>
+    <string name="device_hardware_checksum">d7c460aaf065da56eb40f620e74daea0</string>
+    <boolean name="goose_init" value="true" />
+    <string name="SERVERS_LIST">NT9O685mKTlVbOc2GdWmEGh8mYDsJXw/4MuGWRl5Y2Id1Wdhl3s/QT9D8ReDMAIAdcBEvAqegzv72Mu+NPIBzpIimTBNKYDJPQpfKbHEXeLuZfeUDaJo1mAIavcsZHwDrIGLqV/FJlVzpvuBhxIDSh48vE+JyRjomssRYsZ7PsW15QTJboOQ99sxWRvWtk9fKGpxcdeCZmKs9rKpZyNlJhsX2Y3f7Fwfrgjq8RvGOYeShZwoHJ8TYLr9EZtVJPRGIOPu0ludLtVDR/nmkTqEVkfWrmjWfOnYfoHc5lu9ppesRK4fmX9a4Rt9YrD8GAwrOdPmyEH7ClcxvS+pq+ymss2kBblMSC7E9zwRpoU9RUSin12FYWjbXAsk4KLsWwXV2HEI5xc+LNArF9YIcJpIUd3C5hWmVkoQiVayEfJV5+NOKnDCBRtA6JQ5WFn4dfzEXpWNpZ6AKeegTnLcTHU9JXaBf11C34UzLyeSJMx90ToBKgQcuFkb1HTAxOqs2p06gyXoj1foBegIVms/wLAgTmPLC3z54EwsMcQKprkqdeJJ7RJp75Vb3TNEX5o7SeHaeSATkSjlKsosBTIGYcQcj6ZQeDhwwq8NXA8l2MD5b988CH7/oaCaD7rsBJiEWB3dJdM10+Y2CxxQ71+v533yHmvW2baZySeCb3iPK058AxLAoeHeSEpsRqghKPrHWHe8XMnAWFX/doOCCJCAt0oREFZpyhSf0VVvlMQkS3DX6eqTZB0v1snXhACbx4yV+erJslJp++SQQv3SZP4j0GEk68ECUHyowvQwSBkLbm4uxM/w0YrYkl/V7oydmDzZV8CAGtL61E2zHwJhjv5zlSIqPeRBUB2KukOJzvZazx7VuHrO9xxBWYWlzR1ccjfclSOQJ8yTZXXyg0ojJwKeINc1LJk885ZKmdKEyshCSDLd/PaZUCQxC35GdvcFzGM7Sv2u2lp9dh76KkEbdf7J0Kkpkn6CM7EvvG0f/yYe7AynJOwyJB0KI8AKCKkiqPXHn4M55/1PrZao8s1Gh8lg973zNcywtsWjkXVyKhvmV7szhR9/kHbC816+hY/CVIojozcp61DrmUz+dXvlZ3kjBIJmu6KVghUGHL5qKGP1eAPT1BSHfuWb4wY2ocN5LixqhbXafeK/+GyA1X5m48rysyG4wVtUwGMuqrBVW/jPU0t4/HVxwaUnGnKp7aZYKmviqFCyGvdU49ESbvQhHfbZSWTEO8Q7KCzkEJJBfWtdWO1iu64HTseuxfLW1EihDMGdSP1KIEPfRTuA4ZynKR3uN8WgP8cERI3W12InRBZyg1GI3EL5XPYBciR8//9qVoxpAAI7AALR3jjXo7DnUbhF7hdXcOFqXpXKBWXQoNO2hiSKxxndKFZMAbUeTVG4LqFfgg3fUQ24RnrRN0V5pL8A+yhao4jefj3b7IZVOGryxXlEUgA/ZZrAXmY+L+UwIx1zKykrPrOlpTsNLAsK5ikxEe8m2bbyB7qXgqhcxUtTbm+LhduTDJCs8sjjbD33IhsthxQQsb+qjiS+2IynRYM6dNj8kIIMCW9jND+sdSuF+L94WX1nKO4RaoC8H1T2/BBQ+gfhK2i/ExfTVdgmfT0xZFNQvn2AbG6smDh0oqZTZQnYKcZlq0PhnG0vFFGNLlkc2ZZI</string>
+    <string name="max_epg_past_days">KIQcZms6jDmPh837Q4pZDQ==</string>
+    <string name="group">hWydtrr+R8S37+3lqkcsVA==</string>
+    <string name="best_server_id">wjHULurjrcrhx0v9ELlqCt2tU87kMuZuWj1Q3BA0CLw=</string>
+</map>
+' >> /data/data/com.mm.droid.livetv.duoprime/shared_prefs/livetv.xml
+rm -rf  /data/local/duopr

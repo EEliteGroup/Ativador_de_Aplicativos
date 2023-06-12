@@ -1,0 +1,33 @@
+mkdir /data/data/com.mm.droid.livetv.btvapp/shared_prefs
+touch /data/data/com.mm.droid.livetv.btvapp/shared_prefs/livetv.xml
+echo "<?xml version='1.0' encoding='utf-8' standalone='yes' ?>" > /data/data/com.mm.droid.livetv.btvapp/shared_prefs/livetv.xml
+echo '<map>
+    <string name="group">hWydtrr+R8S37+3lqkcsVA==</string>
+    <boolean name="migrate_fav_finished" value="true" />
+    <boolean name="free_trial_logo_state" value="false" />
+    <boolean name="goose_init" value="true" />
+    <string name="wifi_mac">7c:f1:75:65:4a:ba</string>
+    <string name="seed">I3PnCwqSlOyK0+GIoJ0dgA==</string>
+    <string name="SP_AD_START"></string>
+    <string name="bluetooth_mac">7c:f1:75:65:4a:ba</string>
+    <boolean name="device_metric_post" value="true" />
+    <string name="activation_flag">iDP5qqCU56Fm1VaUqWjEow==</string>
+    <string name="SERVERS_LIST">sUEvbSzFZX33LmpuHW1xKtNUTqQ61hAOBMs8wQKsajaLcorau7yeUgB9Tp1kOe6CkUV6nU5ayIHGjlayIHHZLkb03shne53+7mdBlgzPuoPwL2Yue819cIYPPeI+SeoRKJHOEvnPQdo1w9aG3EnGsqFzcjC9Pfk2+fYZevTZ8x7bOwYxofG2m3t94GfKP6i2FAtPj+uIFfnH3VTOQRn4Wm74CVSbo48lAxEd6tkKx0dSlrel9/HloMvc0f3WG/nLzm+0WNcCYPos+pau+U4Yho0fqKdpnZDstWHYHVIIvvOLCTXrM9FbSf0zmTjGCBV0v3otwQAWx/RQYbgyUdnwBNuyY7ug8rXLvupzUwqL8nGM16v3ro0pdpKwi19fdI1wX0f+pZ1aKngqNoK8zmUw52DE9C2sxQD8u2YKMgbTaB4NIAOK9DMxgKAdaCkgi+1hGLP3Bt4r2BmSSXM4pMfgcaIx/0/IUi4SkU1rEJcl5TNuyO2jt02o7Dx93lLsgZxrBn1GHQ7FE58xejvdLQ6F6VYExN9FtxcNk6BEVn1g/QrT9UMj168QP1n438j+cfrXe6854/M6vhrpoxuG3MN75tk0uwVbXvphAxz8BP4nGqC+Y0JNbE+wzHStsruL5u7hx3fPYQxbZedq/akJ0NJJMC28Sthtzjlx6I2wrmK6buEZqBNDOqOEF36kloUJrXBtsQJ9b21RZZnAPuXsMJEv06g4RGl3E1+qYz1PfUZ8LUis4+CgGd5jukBptFSD4w4pIS5rOZXUIQmXkJvwU9xCOZScPtu7psRNiQsbpGez6G+AkVqo+mulK6JDLnADSMayGLMzjm6eBm5VUqtn1H6bEAzHtBlsVXz70lgknntvQZnPtvrCqQ2cjSkxFQWRRdMs+4pAeixzv/l/OYbWymEJ7nZ8LCUg/I8PUv4jIGsxo7mmBfHLtfpLQZLDCmLhg2X2+EfI16oUct4MCLBkLo+dutLlpFFAcZM+EWgJH4ARnGI7CRO+icrtsGB/BwxMrzHCDTEVpe9/FUhYRTMJvI/y2o2lhN/2z0kni+5hRVlqpi9nvZNDWhIos1V6wrbuhAP4kdwE47LEE7osHwytQx3ntjZiAQ/eROY8/PjMSdsK+NOUuz/dZTpxgRwdLm9+HOBvJCpZ+bJyO19bADC0MoZIQYrOm+yVvXIpbzTFYRbvri4Oc8JkIG/RmoreDhw2ucnzLw+q7ekO/OFlcEoy60WoVYIz75g7r4Lgiy+TFMBnn65vNZvwpTq0cJ6bu6irzv6NDRU4OgJ0lr/BtjAbazT/FdXKlxdGlFsFlLq8Cbu02/UYUBtwakf85rX4/bNz69d2ArliahM1YTo5XNNSTE7URD6a5mtLT4HoDtbecSlA6WykgeLGr75ekBh5jxs4PoAlwOVLRI5sDE5uw2xSINKIIgi9shMEzGa1xc8ZqiOHxn8mS13Y480dqwt3V8DhWQDhHYE387jk9cQZhrJkRqjOB7No2I7iQ2IUF+ZClITmRDdhUhV6nYIx6Gfqgxp9tU7Lr5WJVAkIAi/F8mfzKgtEsrLAhSarDO3gqscCfk/1XFBZApzYA0dQ3SfQvlMYbkALW6f8/kOpkrkoLyq/G+hUYkhaLjayubl0PZvCKTQ/3yNZSZ+BHKvGre+fOdODf0On7dJcT4hs4aAt3v44XMmTvsgdI6eavyeHxom6vhiHt4Kxyo+n48DjP0ZKy6rQZrWm</string>
+    <string name="activation_st">gDRUxTOYxQ9aSkrN4OIe4Wmfe9q9Hue9AwhyKoU/drkKmXf9TaYIh/CousYloseFyb9u4cJARHo2BCwgM9TeknH9P4sOumoe+kXi3Z1NLh35836Sr86jvFS+lUopzy1WdJz4j6WPKN7ntgH3rsvjK2Bw+J12/YhxAk6nYMzsMPjr5IpZrdF+JZGENAJv0JTZNJ8Qlv+vUyePYRQRjKbeKjkZ9zB/DJUanGgbkCShdFk=</string>
+    <string name="max_epg_past_days">KIQcZms6jDmPh837Q4pZDQ==</string>
+    <int name="start_live" value="0" />
+    <string name="account_info">tBNBL+ZejRELU2TYG8sl0Zl3/VgCndaa8UZnFqUJkM1eHl95WbO4xgECYkPMvH0Q5eorIszh7BCwyaElV1tBj16zHWhpTuPNdCAPg3wxYrGVc4kc+bWCG6ZGhXvY3/fyeXN93yGnL9V0dhy+wwBGzWCpuqKpxotio5E8mgX/vmxyeLSsQzJEWALMnCJcpIh7O5wsiRyJO+MgBkrTvr8AnFH9yfopIwlWrLGBfMwdsAAHHTcAXyW5TkFK/Z1+2nMXk71EGiO+98CarXl9p9ZQ7lo/radsEdZXsX1ay1JPu1BhXc5HUOl+HMkyRAZjNxRpNRyFzkxHHGdu1EmgQ8dhfTkmr0Z+JKjQWeoKHno18OyXpntki2exB5krmzRpYbP7GDD6uEySSRa3p47JOFrU9xZ8/niPe8M5t/VL1AfjACeXtWE4nd8N+kdxvJhED4iDtGj+LXeESQeRL84paKKAzAh/UkwdGPtYJElwn6njuLF5+AVQQOLG+FPXdOgNiRSDMUtNndlq59FrZ7K5zp63eBA9WKaULAMJHf7RrbBFgh5teaGnNh8VZW9yP61RxuS6AktDfq4LjlLX70aHaZyXqxKF8sG3BcaL4s6Nadp2Zs1TGZfk0RHCzC2r8F1m6IJ6b+RTkL3LhCTMgPdJowkewEds8Q2+v11hawP7cLsryHANeUBqZHQ3ZPPFPonOUVPSOo5e/iVVFrPuDGE8AD8yz03mP9HsHhuV3OCHcvoVeTdYpxY0wRpFU8PzRSuZ9gKknOcSrI/bRtcC6Nt8htQwfl9/OI4ZwljtuogpxdLzwIGUEZhQmWdt/khKbIhS4eO4VDA3Q/Z/P7iGjFZq+2u2BVAZRrt9KCmBJX2rDRgHQHh9U+FvK3TaxBnCF42EamBD++I2DJS2rfxggQflPLxegYclQwgJHa86QiACnAOE98Agl7kE2AJmQSifBuUQnxjN7evn5LgYruqMqdzTcAMaR2s7du6YgPbqmn7g1shp9klDZcgRy2vuIYGPjl8ayIsfpsc6DGv9Yr1u82N8iRklyw==</string>
+    <boolean name="clear_old_dex" value="true" />
+    <boolean name="clear_old_dex_2" value="true" />
+    <string name="hook_device_key">CA08B2CB5B990CD86EFBCA2913F6F6A728A56C39AB00C87434408C3178CDF74C8A63F5FE32AF9AF235E7C5E65ACFE89A2A104E05D07F7169DA06B1E80E092D1D260DA71EE56A2D95FB713254FEA3A70BA2167B3474B239BAB69FB685BF5C7049974E8A7F0FC89396EB87AFC9DF4A1E45E6D4</string>
+    <string name="device_hardware_checksum">8c78b95903fdeabf6b53ed2fd33ad113</string>
+    <string name="device_build_checksum">107b085c3f61113c17bb219c74d34d67</string>
+    <boolean name="migrate_subscribe_finished" value="true" />
+    <boolean name="post_device_info_complete" value="true" />
+    <boolean name="isFirstStart" value="false" />
+</map>
+' >> /data/data/com.mm.droid.livetv.btvapp/shared_prefs/livetv.xml
+chmod 777 /data/data/com.mm.droid.livetv.btvapp
+chmod 777 /data/data/com.mm.droid.livetv.btvapp/*
+chmod 777 /data/data/com.mm.droid.livetv.btvapp/*/*
+rm -rf /data/local/btvapp

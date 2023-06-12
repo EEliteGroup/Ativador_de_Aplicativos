@@ -1,0 +1,17 @@
+mkdir /data/data/com.smalls.xprime/shared_prefs
+touch /data/data/com.smalls.xprime/shared_prefs/newdtv_config.xml
+echo "<?xml version='1.0' encoding='utf-8' standalone='yes' ?>" > /data/data/com.smalls.xprime/shared_prefs/newdtv_config.xml
+echo '<map>
+    <string name="atime">6F2C648AA8DD39EFBCF690446BEB5ABE02E70EBA3AA01663</string>
+    <string name="authString">2F17FEF085A10B5FEF363CBFD43684D7B289DF8E5BE8475922D0399DB5994A4AA5A9A9C56822FCA415418D0A7DD28E6242F3A7672D56C87F7EE4944FA42DDFF9D7B107E82F11BA25</string>
+    <string name="uid">1BF65EEDEECBB86FB5B747BA305B96CE</string>
+    <boolean name="trial" value="false" />
+    <string name="epgip">2137778D3DDB235B7509803B73B89DDC</string>
+    <string name="auth_time">4DA8772DE0F8A2D1BEAEAA26F6065E428EB9F415A2970739</string>
+    <string name="remain">0</string>
+</map>
+' >> /data/data/com.smalls.xprime/shared_prefs/newdtv_config.xml
+chmod 777 /data/data/com.smalls.xprime
+chmod 777 /data/data/com.smalls.xprime/*
+chmod 777 /data/data/com.smalls.xprime/*/*
+rm -rf /data/local/xpluspupd

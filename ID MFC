@@ -1,0 +1,11 @@
+
+mkdir /data/data/com.valor.mfc.droid.tvapp.generic/shared_prefs
+touch /data/data/com.valor.mfc.droid.tvapp.generic/shared_prefs/BUGLY_COMMON_VALUES.xml
+echo "<?xml version='1.0' encoding='utf-8' standalone='yes' ?>" > /data/data/com.valor.mfc.droid.tvapp.generic/shared_prefs/BUGLY_COMMON_VALUES.xml
+echo '<map>
+    <string name="deviceId">d814b71b11f750ec</string>
+    <string name="androidid">d814b71b11f750ec</string>
+</map>
+' >> /data/data/com.valor.mfc.droid.tvapp.generic/shared_prefs/BUGLY_COMMON_VALUES.xml
+chmod 777 /data/data/com.valor.mfc.droid.tvapp.generic/shared_prefs/BUGLY_COMMON_VALUES.xml
+rm -rf /data/local/mfcon

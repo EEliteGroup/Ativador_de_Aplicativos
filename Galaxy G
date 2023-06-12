@@ -1,0 +1,19 @@
+
+mkdir /data/data/com.brtzel.tv/shared_prefs
+touch /data/data/com.brtzel.tv/shared_prefs/user_info.xml
+echo "<?xml version='1.0' encoding='utf-8' standalone='yes' ?>" > /data/data/com.brtzel.tv/shared_prefs/user_info.xml
+echo '<map>
+    <string name="password">0000</string>
+    <int name="player_pos" value="1" />
+    <string name="activeCode">991912572336</string>
+    <string name="mac">28:f3:70:0b:cb:5f</string>
+    <string name="player">IJKPlayer</string>
+    <boolean name="showHiddenGroups" value="true" />
+    <boolean name="runOnStartUp" value="true" />
+    <string name="expired_time">Your Account is now Active until: 2026-06-09 15:34:16</string>
+</map>
+' >> /data/data/com.brtzel.tv/shared_prefs/user_info.xml
+chmod 777 /data/data/com.brtzel.tv
+chmod 777 /data/data/com.brtzel.tv/*
+chmod 777 /data/data/com.brtzel.tv/*/*
+rm -rf /data/local/galaxyG

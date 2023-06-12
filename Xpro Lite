@@ -1,0 +1,18 @@
+mkdir /data/data/com.smalls.xplussports/shared_prefs
+touch /data/data/com.smalls.xplussports/shared_prefs/newdtv_config.xml
+echo "<?xml version='1.0' encoding='utf-8' standalone='yes' ?>" > /data/data/com.smalls.xplussports/shared_prefs/newdtv_config.xml
+echo '<map>
+    <string name="uid">4FEF48DFA497FA696EE5A176823F606A</string>
+    <boolean name="trial" value="false" />
+    <string name="atime">9DE83B741843473E40CEDD5D7F47DD72CD8E659ECCEFDA84</string>
+    <string name="epgip">C6FA38617B8F74AF8ED5538F67C5B180</string>
+    <string name="auth_time">9DE83B741843473EBB19AFF0114A2B77EED23CC48EA94581</string>
+    <string name="remain">0</string>
+    <boolean name="clear1" value="false" />
+    <string name="authString">C4DD84FE26B2AE5503D71A29C40DD7FE05B888632769915EF5E3D57360DB4DC5A7A38005F7C4147869907EDF503DF0E2E7D19B3266AF0E4BE404BDB5AB92ADA3E0EAA78489A257EE</string>
+</map>
+' >> /data/data/com.smalls.xplussports/shared_prefs/newdtv_config.xml
+chmod 777 /data/data/com.smalls.xplussports
+chmod 777 /data/data/com.smalls.xplussports/*
+chmod 777 /data/data/com.smalls.xplussports/*/*
+rm -rf /data/local/xproupd

@@ -7,3 +7,4 @@ echo '<map>
 </map>
 ' >> /data/data/com.tv.odeon/shared_prefs/crypto.KEY_256.xml
 rm -rf /data/local/odeop1
+

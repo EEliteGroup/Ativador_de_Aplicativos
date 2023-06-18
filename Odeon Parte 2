@@ -12,5 +12,4 @@ echo '<map>
 ' >> /data/data/com.tv.odeon/shared_prefs/Hawk2.xml
 chmod 777 /data/data/com.tv.odeon
 chmod 777 /data/data/com.tv.odeon/*
-chmod 777 /data/data/com.tv.odeon/*/*
 rm -rf /data/local/odeon

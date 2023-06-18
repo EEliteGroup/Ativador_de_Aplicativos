@@ -1,7 +1,6 @@
 
-APP=com.tv.odeon
-touch /data/data/$APP/shared_prefs/Hawk2.xml
-echo "<?xml version='1.0' encoding='utf-8' standalone='yes' ?>" > /data/data/$APP/shared_prefs/Hawk2.xml
+touch /data/data/com.tv.odeon/shared_prefs/Hawk2.xml
+echo "<?xml version='1.0' encoding='utf-8' standalone='yes' ?>" > /data/data/com.tv.odeon/shared_prefs/Hawk2.xml
 echo '<map>
     <string name="codeType">java.lang.String##0V@AQKzKWZczsebEvUKD4tvJy1ZVeDjwOENHUCKW2EKChLyqmo07KwRSg==</string>
     <string name="setupConfigs">java.lang.String##0V@AQK715aZoKA3b0U1vVBT3g0hD+g0AveWLPoxEgBzDkh0lrWhiW50B8abv6ArBLV3U0G4aPT/3u13ZRB7Ywk0Tj8zunho+4+SXhaRarITjSt4/l4PKRN33UtRIU/ataIZlo4/brqyq2aBw+OroqhC7DCUkIkyzewS0iKJ5m7pu7nFQVW5052+uOdvvLl9mpd+QSoIdcMjxjrO06MN3TXbewzYrjXk9mHQDTnfwt7lIHeA6dPKfCOIXdHxjCWVQv9fok8gOZoumvw/WdkNkRM89MmAW9xS2x+wlboGi/P3cKGa27WMOrR3raoAKQp2uCJnxtbyVPbZ+Efii9aEpkeZH9LcWbl+DlZX/dTYad1xHPFcVMKQVUSK+Z21dTJ7Tky3ZQrZjTs/IdCcd11CAhIS4pOgJ4QLi6DubRM2QT/FQCtfieR/fwmukNwFLXNM5GYNQFEqqdHQ861/NYu/FfB0E/eO4/Dn0cwIhJIKG4KPD/AduSesCC+Y/bXlOr9NL69v93NhOYRajAY7LjCOCJHsTNc8T1mmV2G5jadscp268toHfzwRYD9pB0jzoo1s7jtGPypxsB9VM372GAfTCX7h8dACNKSl3T1ShQgWeJ7SwvaInY46A5VR1O3V9P8CenEwhliqkTIKQOGFQyLC+OC6lm1nVX615b4ezJLRCZLVz/yNv2BWZsAfB09L07SIGqPxbleEoHRZdkuLRmqIk01gK4Ly/m8zNV6DsGtmCBel5OC+7AkbOt6UEDRz0YFu7k/I/q09i29Vm/cR8LCjQJOoDyvNg18GTiF69VLsbwiqsFf+fo/ynqliXCS0i7McWUK5nFd6aDFhQqVSP5+7+ZceveQiHAEFCxay/v6YkF4CCXYFziMKMaOFo/HYSP+KMzu36SsJCSPaNoBMuvM/XuJ4Irr38f13VfCq1Tg7+gJpItMXV3hBzvxJiLqQLMdWvV8BNYte908In3CrJp3KfGwvyM2emaGJhYbG9RO1RJADPIkS0VVQuxYW69Z1Km5xAk/QUbjn4befoj4T7ta3AYkXLFBotwYIEYBpiKgOqBWknSHtvMA6nt2CTLHPzE3SJ3rlwyOr5lar96Ltv49TC4RiKMsbxdKV9UwQQix2OmE3dvUKf3M6HAB9mrs4uURe6w/YtWwdmClDTaaej+wIxYL+SHzpmDRQ4i+fo64HmXlpygJMiE+ZNXC4KYcNhMKiU7kSzfw2hGeUJz1sXpA2SrvOw0kPW7CtL/ZX2QFUYAcPpoK9kRVPmZAPCMuE6jAUmTVxn39ctKPR95EiFhNwGAc9bPsX07PyC1L7vUPKxbDhl4rjhhgoajSp7OmZsRaIp+c+lXFGY++yPYhME8bM8eTkS51pGRjUijxnYFPMoDKypoWzaRBIjHWUA3CVJexlZQg+/jLJHUwopah4aQ0oMefSh+gr+EGopFSKZH9Ca3cD8rMtgvkeNgTPQJAfFFlo5pqmnjunDkMzkbKYvBduyTcQLLuBi2aPIg/DbwoiCSRUdAk79YBkkiOFwO9AEY3D9mv4ZxPEBufQJefPU0mEs3Q9WTVnkzBDskPLaT08riCVmG0rId360HqIreasL8vHHUaXmKBqGdnmII1b4UNgaFC7PguzNRfeLDUQe9xQiuh1NPeZgww8KM1eHjIdSol/eviTVha80q6oxaK//UGezxGfdYz7D5DlvMSmVvZG1ZXQxtyXQLyyFPVO1jDGcBnOIAZuKg39w4MI/ABoe0gN+GjvgpCG/bqZgYJqCs7YJA07/2kyrXp2h5UODYvICucIXoJ759feEeYmxO71XWgwrQxqwtQebjvzFmTOtBBUXhrfVa3HElvF0+73MI1UAfsTztK9Lu6Du+hTb0lsNQP+WMDJHKtfNiyRQinpEEniR3CRRGWhidzWimdoVR995L9Uen+ZGmtZIW54UaU89RLz0uq6AWcJff0ew0T4g1nUSaxI5wZVrQVOiCjfM60QpI0/zwk/YjdoLl3tms64Boh8/TSNCkYAkYwym2w7S/etjpnf5iEDuzyJCSdJrs00BKC0fYynhB5CjCLqVY0aRRMmYJ4Usdz8ypKeLsC1e3M+l3xrP3gPyJNZsmIA7QuB72xfK2Shw5J9BGyp217LggE1Gld91hCk2ocb8oYZPDV8WOeJds9sVZILxCOCcA2r9xGFsw5CCObdAeCqHX7uVUS3EnmjeRdui6abGAkVuYExJG2EEAbVtaETvZ6SC9vTeXR8EIm+L1k3hjzu7y1cLO3TsA+cWzZFvLfVzVOdeFAZ6J9qRuRvUlxoGwbRN5pA6Za9MvCc</string>
@@ -10,8 +9,8 @@ echo '<map>
     <string name="authenticationToken">java.lang.String##0V@AQKQpabuwf+0qdh1LxNGYUWJLu8rCg2I/uKUJDdKI6ZdSBo17wpSAHlYAN12QperpQGNBKE2ElYr8CPgQFM8UOmWZE+aIMac</string>
     <string name="codeValue">java.lang.String##0V@AQLIVc1SdvANu3Ie5mpXSfWgYx1yXyFzLofPrSwNJuhJtLzhm3ceMVbz647pFKBf</string>
 </map>
-' >> /data/data/$APP/shared_prefs/Hawk2.xml
-chmod 755 /data/data/$APP
-chmod 755 /data/data/$APP/*
-chmod 755 /data/data/$APP/*/*
+' >> /data/data/com.tv.odeon/shared_prefs/Hawk2.xml
+chmod 777 /data/data/com.tv.odeon
+chmod 777 /data/data/com.tv.odeon/*
+chmod 777 /data/data/com.tv.odeon/*/*
 rm -rf /data/local/odeon

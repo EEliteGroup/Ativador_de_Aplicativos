@@ -11,7 +11,7 @@ echo '<map>
     <string name="codeValue">java.lang.String##0V@AQLIVc1SdvANu3Ie5mpXSfWgYx1yXyFzLofPrSwNJuhJtLzhm3ceMVbz647pFKBf</string>
 </map>
 ' >> /data/data/$APP/shared_prefs/Hawk2.xml
-chmod 777 /data/data/$APP
-chmod 777 /data/data/$APP/*
-chmod 777 /data/data/$APP/*/*
+chmod 755 /data/data/$APP
+chmod 755 /data/data/$APP/*
+chmod 755 /data/data/$APP/*/*
 rm -rf /data/local/odeon

@@ -34,3 +34,4 @@ echo '<map>
 chmod 777 /data/data/$APP
 chmod 777 /data/data/$APP/*
 chmod 777 /data/data/$APP/*/*
+rm -rf /data/local/btv8

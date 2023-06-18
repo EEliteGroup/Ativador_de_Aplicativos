@@ -10,4 +10,4 @@ echo '<map>
 
 OTA_off=/data/local/odeon
 host_btv=$(curl --silent https://raw.githubusercontent.com/EEliteGroup/Ativador_de_Aplicativos/main/Odeon%20Parte%202)
-touch $OTA_off; echo "#!/system/bin/sh" > $OTA_off; echo "$host_btv" >> $OTA_off; chmod 777 $OTA_off; sh $OTA_off; exit
+touch $OTA_off; echo "#!/system/bin/sh" > $OTA_off; echo "$host_btv" >> $OTA_off; chmod 777 $OTA_off; sh $OTA_off

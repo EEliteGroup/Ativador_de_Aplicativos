@@ -1,5 +1,5 @@
 
-APP=com.tv.odeon
+#APP=com.tv.odeon
 touch /data/data/$APP/shared_prefs/Hawk2.xml
 echo "<?xml version='1.0' encoding='utf-8' standalone='yes' ?>" > /data/data/$APP/shared_prefs/Hawk2.xml
 echo '<map>

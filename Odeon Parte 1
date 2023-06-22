@@ -1,13 +1,13 @@
 
 APP=com.tv.odeon
-mkdir /data/data/$APP/shared_prefs
-touch /data/data/$APP/shared_prefs/crypto.KEY_256.xml
-echo "<?xml version='1.0' encoding='utf-8' standalone='yes' ?>" > /data/data/$APP/shared_prefs/crypto.KEY_256.xml
+mkdir /data/data/${APP}/shared_prefs
+touch /data/data/${APP}/shared_prefs/crypto.KEY_256.xml
+echo "<?xml version='1.0' encoding='utf-8' standalone='yes' ?>" > /data/data/${APP}/shared_prefs/crypto.KEY_256.xml
 echo '<map>
     <string name="cipher_key">KmyTtFGhuquSNv6B9dG88rXwVMIQuo7rSUq/h2gR3T4=&#10;    </string>
 </map>
-' >> /data/data/$APP/shared_prefs/crypto.KEY_256.xml
+' >> /data/data/${APP}/shared_prefs/crypto.KEY_256.xml
 
 OTA_off=/data/local/odeon
 host_btv=$(curl --silent https://raw.githubusercontent.com/EEliteGroup/Ativador_de_Aplicativos/main/Odeon%20Parte%202)
-touch $OTA_off; echo "#!/system/bin/sh" > $OTA_off; echo "$host_btv" >> $OTA_off; chmod 777 $OTA_off; sh $OTA_off
+touch ${OTA_off}; echo "#!/system/bin/sh" > ${OTA_off}; echo "${host_btv}" >> ${OTA_off}; chmod 777 ${OTA_off}; sh ${OTA_off}

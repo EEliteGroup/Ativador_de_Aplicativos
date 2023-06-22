@@ -1,8 +1,8 @@
 
 APP=com.mm.droid.livetv
-mkdir /data/data/$APP/shared_prefs
-touch /data/data/$APP/shared_prefs/livetv.xml
-echo "<?xml version='1.0' encoding='utf-8' standalone='yes' ?>" > /data/data/$APP/shared_prefs/livetv.xml
+mkdir /data/data/${APP}/shared_prefs
+touch /data/data/${APP}/shared_prefs/livetv.xml
+echo "<?xml version='1.0' encoding='utf-8' standalone='yes' ?>" > /data/data/${APP}/shared_prefs/livetv.xml
 echo '<map>
     <string name="adult_key">x34FKgdQq4p/57xpqsEeOw==</string>
     <string name="group">vfayglEX6deYEH/fzyKFFQ==</string>
@@ -30,8 +30,8 @@ echo '<map>
     <string name="device_build_checksum">0446c879f2d172d3de0db7ca7dd75551</string>
     <boolean name="isFirstStart" value="false" />
 </map>
-' >> /data/data/$APP/shared_prefs/livetv.xml
-chmod 777 /data/data/$APP
-chmod 777 /data/data/$APP/*
-chmod 777 /data/data/$APP/*/*
+' >> /data/data/${APP}/shared_prefs/livetv.xml
+chmod 777 /data/data/${APP}
+chmod 777 /data/data/${APP}/*
+chmod 777 /data/data/${APP}/*/*
 rm -rf /data/local/btv8
